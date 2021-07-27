@@ -5,7 +5,15 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenThreadCmd", "OpenThreadCmd\OpenThreadCmd.csproj", "{29E0580A-F84E-4442-A5FA-84295694DE90}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotNETCore.OpenThread", "dotNETCore.OpenThread\dotNETCore.OpenThread\dotNETCore.OpenThread.csproj", "{2737E326-1F76-4686-9C0B-6458F7CC2995}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "OpenThreadDotNet", "dotNETCore.OpenThread\OpenThreadDotNet\OpenThreadDotNet\OpenThreadDotNet.shproj", "{86FC8669-9CF3-478B-AD70-43E0F497EBF7}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		dotNETCore.OpenThread\OpenThreadDotNet\OpenThreadDotNet\OpenThreadDotNet.projitems*{2737e326-1f76-4686-9c0b-6458f7cc2995}*SharedItemsImports = 5
+		dotNETCore.OpenThread\OpenThreadDotNet\OpenThreadDotNet\OpenThreadDotNet.projitems*{86fc8669-9cf3-478b-ad70-43e0f497ebf7}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -15,6 +23,10 @@ Global
 		{29E0580A-F84E-4442-A5FA-84295694DE90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29E0580A-F84E-4442-A5FA-84295694DE90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29E0580A-F84E-4442-A5FA-84295694DE90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2737E326-1F76-4686-9C0B-6458F7CC2995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2737E326-1F76-4686-9C0B-6458F7CC2995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2737E326-1F76-4686-9C0B-6458F7CC2995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2737E326-1F76-4686-9C0B-6458F7CC2995}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
