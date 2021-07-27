@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;NETCORE</DefineConstants>
+  </PropertyGroup>
+
+  <Import Project="..\OpenThreadDotNet\OpenThreadDotNet\OpenThreadDotNet.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <PackageReference Include="System.IO.Ports" Version="6.0.0-preview.6.21352.12" />
+  </ItemGroup>
+
+</Project>
