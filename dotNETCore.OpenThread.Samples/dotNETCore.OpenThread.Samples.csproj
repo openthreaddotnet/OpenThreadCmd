@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject>Samples.FormLowpanNetworkAndUDPListener</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\dotNETCore.OpenThread\dotNETCore.OpenThread.csproj" />
+  </ItemGroup>
+
+</Project>

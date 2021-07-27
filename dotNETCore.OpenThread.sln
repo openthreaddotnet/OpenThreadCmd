@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotNETCore.OpenThread", "dotNETCore.OpenThread\dotNETCore.OpenThread.csproj", "{C90222F8-2269-4236-AFFB-A79AFA4BC485}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotNETCore.OpenThread.Samples", "dotNETCore.OpenThread.Samples\dotNETCore.OpenThread.Samples.csproj", "{019F14AB-35D6-41A4-B4BF-7FC1FEBBDC58}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "OpenThreadDotNet", "OpenThreadDotNet\OpenThreadDotNet\OpenThreadDotNet.shproj", "{86FC8669-9CF3-478B-AD70-43E0F497EBF7}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CoAPDotNet", "CoAPDotNet\CoAPDotNet\CoAPDotNet.shproj", "{7B4E6FF2-742D-460E-BF0D-A5D41E610BBF}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		CoAPDotNet\CoAPDotNet\CoAPDotNet.projitems*{7b4e6ff2-742d-460e-bf0d-a5d41e610bbf}*SharedItemsImports = 13
+		OpenThreadDotNet\OpenThreadDotNet\OpenThreadDotNet.projitems*{86fc8669-9cf3-478b-ad70-43e0f497ebf7}*SharedItemsImports = 13
+		OpenThreadDotNet\OpenThreadDotNet\OpenThreadDotNet.projitems*{c90222f8-2269-4236-affb-a79afa4bc485}*SharedItemsImports = 5
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C90222F8-2269-4236-AFFB-A79AFA4BC485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C90222F8-2269-4236-AFFB-A79AFA4BC485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C90222F8-2269-4236-AFFB-A79AFA4BC485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C90222F8-2269-4236-AFFB-A79AFA4BC485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{019F14AB-35D6-41A4-B4BF-7FC1FEBBDC58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{019F14AB-35D6-41A4-B4BF-7FC1FEBBDC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{019F14AB-35D6-41A4-B4BF-7FC1FEBBDC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{019F14AB-35D6-41A4-B4BF-7FC1FEBBDC58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A48D4D5-22F3-4FF7-A7F4-4E9B887749C7}
+	EndGlobalSection
+EndGlobal
